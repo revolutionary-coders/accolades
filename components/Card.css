@@ -1,0 +1,32 @@
+
+.card{
+    height: 205px;
+    width: 274px;
+    
+}
+.heading{
+    color: #2D1500;
+    font-size: 24px;
+    line-height: 27.6px;
+    height: 28px;
+    width: 138px;
+    text-align: center;
+    padding: 20;
+    margin-left: 60px;
+}
+.text{
+    height: 100px;
+    width: 254px;
+    font-size: 18px;
+    line-height: 20.7px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:400;
+    color: #856446CC;
+    margin-left: 10px;
+}
+.card_image{
+    margin-left: 70px;
+    height: 96px;
+    width: 96px;
+}

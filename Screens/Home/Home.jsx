@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
 import Collection from '../Collection/Collection'
+import Explore from '../Explore/Explore'
+
 
 const Home = () => {
   return (
@@ -9,6 +11,7 @@ const Home = () => {
     <Navbar/>
     <Hero/>
     <Collection/>
+    <Explore/>
     </>
   )
 }

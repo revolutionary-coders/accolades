@@ -40,6 +40,16 @@
     border: 1px solid;
     padding: 9px, 34px, 9px, 34px;
     border-color: #2D1500;
+    background-color: #CC9544;
+}
+
+.hero-btn:hover{
+    background-color: black;
+    color: white;
+}
+.Preordr-btn:hover{
+    background-color: black;
+    color: white;
 }
 .product{
     height: 700px;

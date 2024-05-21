@@ -33,3 +33,7 @@
     padding: 10px, 37px, 10px, 37px;
     margin-left: 42%;
 }
+.collection-btn:hover{
+    background: black;
+    color: white;
+}

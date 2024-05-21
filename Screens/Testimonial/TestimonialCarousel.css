@@ -1,0 +1,45 @@
+.testimonial-container {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.carousel {
+  /* background-color: black; */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-button {
+  background-color: #B58A62;
+  color: #2D1500;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.testimonial-wrapper {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.testimonial-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: calc(100% * 7 / 3); /* Number of testimonials divided by the number of visible testimonials */
+}
+
+.testimonial {
+  flex: 0 0 33.3333%; /* Three testimonials visible */
+  box-sizing: border-box;
+}
+
+.testimonial img {
+  width: 100%;
+  height: auto;
+}

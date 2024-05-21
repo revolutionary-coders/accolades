@@ -1,0 +1,107 @@
+body{
+  margin: 0px;
+}
+.sitemap-footer {
+  background-color: #2d1500;
+  padding: 20px 0;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.upper-section h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  color: white;
+  text-align: left;
+  padding: 0 20px;
+  font-weight: 400;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:50px;
+}
+.slogan-container{
+  max-width: 350px;
+  color: #D9D9D9;
+}
+
+.items-container {
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between ;
+  flex: 1;
+  
+}
+.sitemap-section {
+  color: #ffffff;
+  font-size: 21px;
+  flex: 1;
+  margin: 0 px;
+}
+
+.sitemap-section h4 {
+  font-family: Open Sans;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 28.6px;
+}
+
+.sitemap-section ul {
+  list-style: none;
+  /* padding: 0; */
+}
+
+/* .sitemap-section ul li {
+  margin-bottom: 8px;
+} */
+
+.sitemap-section ul li a {
+  text-decoration: none;
+  color: #d9d9d9;
+  font-family: Open Sans;
+  font-size: 14.7px;
+  font-weight: 400;
+  line-height: 20.02px;
+}
+
+.sitemap-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.instagram-section {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.instagram-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.instagram-photos a {
+  display: block;
+}
+
+.instagram-photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.lower-section{
+  color:  #D9D9D9;
+  border-top: 1.05px solid white;
+
+}

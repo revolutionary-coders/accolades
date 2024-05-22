@@ -1,0 +1,106 @@
+.main {
+  display: flex;
+  .div-left {
+    width: 40%;
+    align-items: center;
+    margin-top: 50px;
+    .heading1 {
+      font-size: 72px;
+      line-height: 78px;
+      font-weight: 400;
+      font-family: "Times New Roman", Times, serif;
+      margin-left: 56px;
+      color: #2d1500;
+    }
+    .lorem {
+      margin-top: 35px;
+      margin-left: 61px;
+      font-size: 24px;
+      line-height: 25px;
+      font-weight: 400;
+      font-family: "Times New Roman", Times, serif;
+      color: #856446b2;
+    }
+    .hero-btn {
+      padding: 10px 20px;
+      margin-left: 57px;
+      margin-top: 45px;
+      color: #2d1500;
+      border-radius: 10px;
+      border: 1px solid;
+      padding: 9px, 34px, 9px, 34px;
+      border-color: #2d1500;
+    }
+    .left-bottom {
+      background: rgba(124, 1, 255, 0.2);
+      overflow-y: hidden;
+      height: 200px;
+      .group1 {
+        transform: translateY(-200px);
+        height: 200px;
+        width: 300px;
+        .active {
+          transform: translateY(0px);
+          transition-duration: 2sec;
+        }
+      }
+      .frame {
+        height: 63px;
+        width: 160px;
+        margin-top: 15%;
+        margin-left: 20%;
+      }
+    }
+  }
+  .div-right {
+    width: 60%;
+    position: relative;
+  }
+}
+.product {
+  height: 700px;
+  width: 800px;
+}
+.carousel-container {
+  height: 204px;
+  width: 1222px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 150px;
+}
+.prebook {
+  height: 270px;
+  width: 1308px;
+}
+.prebook-heading {
+  height: 85px;
+  width: 650px;
+  font-size: 54px;
+  line-height: 84.99px;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 35%;
+  margin-top: 40px;
+  color: #2d1500;
+}
+.prebook-text {
+  height: 100px;
+  width: 1308px;
+  size: 24px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: 400;
+  color: #856446b2;
+  margin-left: 60px;
+}
+.Preordr-btn {
+  height: 38px;
+  width: 219px;
+  background-color: #c8ae7d;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 10px, 37px, 10px, 37px;
+  margin-left: 50%;
+}

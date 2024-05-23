@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
-import Collection from '../Collection/Collection'
+// import Collection from '../Collection/Collection'
 import Explore from '../Explore/Explore'
 import SitemapFooter from '../Footer/Footer'
 import FaqComponent from '../Faq/FaqComponent'
@@ -17,7 +17,7 @@ const Home = () => {
     <>
     <Navbar/>
     <Hero/>
-    <Collection/>
+    {/* <Collection/> */}
     <ImageComponent/>
     
     <Explore/>

@@ -8,6 +8,7 @@ import FaqComponent from '../Faq/FaqComponent'
 import NewsletterSignup from '../NewsLetter/NewsletterSignup'
 import TestimonialCarousel from '../Testimonial/TestimonialCarousel'
 import BannerSlider from '../BannerSlidder/BannerSlidder'
+import ImageComponent from '../ImageComponent/ImageComponent'
 
 
 
@@ -17,6 +18,8 @@ const Home = () => {
     <Navbar/>
     <Hero/>
     <Collection/>
+    <ImageComponent/>
+    
     <Explore/>
     
     <BannerSlider/>

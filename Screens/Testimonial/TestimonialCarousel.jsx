@@ -32,8 +32,9 @@ const TestimonialCarousel = () => {
   };
 
   return (
+    <>
+      <h2 className='testimonial-heading'>TESTIMONIAL</h2>
     <div className="testimonial-container">
-      <h2 className='collection-heading'>TESTIMONIAL</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultrices sed, dolor.</p>
       <div className="carousel">
         <button className="carousel-button" onClick={handlePrev}>
@@ -58,6 +59,7 @@ const TestimonialCarousel = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
 
